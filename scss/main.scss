@@ -42,3 +42,67 @@ header {
     }
   }
 }
+
+main {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+// section-one
+
+.section-one {
+  background: url("/dist/assets/hero-bg.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+
+  .section-logo-container {
+    width: 300px;
+    margin: 0 auto;
+
+    img {
+      margin-top: 50px;
+    }
+  }
+
+  .table-booking-container {
+    background-color: #f3f3f3;
+    width: 55%;
+    height: 220px;
+    padding: 0.6em;
+    margin: 0 auto;
+
+    .inner-container {
+      border: 2px solid #b44f19;
+      height: 100%;
+      width: 100%;
+      .inner-header-container {
+        .booking-header {
+          color: #b44f19;
+          text-align: center;
+          font-size: 1.8em;
+          margin-bottom: 0;
+        }
+      }
+      .inner-paragraph-container {
+        width: 85%;
+        margin: 0 auto;
+      }
+      .booking-button {
+        text-align: center;
+        margin-top: 1em;
+        .booking-link {
+          .booking-button {
+            box-shadow: none;
+            border: none;
+            padding: 2.5% 6.5%;
+            background-color: #b44f19;
+            font-size: 16px;
+            font-weight: 700;
+            color: #f3f3f3;
+          }
+        }
+      }
+    }
+  }
+}

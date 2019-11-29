@@ -29,3 +29,47 @@ header {
       header .the-list .list-item .active {
         color: #f3f3f3;
         text-decoration: underline; }
+
+main {
+  font-family: "Source Sans Pro", sans-serif; }
+
+.section-one {
+  background: url("/dist/assets/hero-bg.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  height: 800px; }
+  .section-one .section-logo-container {
+    width: 300px;
+    margin: 0 auto; }
+    .section-one .section-logo-container img {
+      margin-top: 50px; }
+  .section-one .table-booking-container {
+    background-color: #f3f3f3;
+    width: 55%;
+    height: 220px;
+    padding: 0.6em;
+    margin: 0 auto; }
+    .section-one .table-booking-container .inner-container {
+      border: 2px solid #b44f19;
+      height: 100%;
+      width: 100%; }
+      .section-one .table-booking-container .inner-container .inner-header-container .booking-header {
+        color: #b44f19;
+        text-align: center;
+        font-size: 1.8em;
+        margin-bottom: 0; }
+      .section-one .table-booking-container .inner-container .inner-paragraph-container {
+        width: 85%;
+        margin: 0 auto; }
+      .section-one .table-booking-container .inner-container .booking-button {
+        text-align: center;
+        margin-top: 1em; }
+        .section-one .table-booking-container .inner-container .booking-button .booking-link .booking-button {
+          box-shadow: none;
+          border: none;
+          padding: 2.5% 6.5%;
+          background-color: #b44f19;
+          font-size: 16px;
+          font-weight: 700;
+          color: #f3f3f3; }
