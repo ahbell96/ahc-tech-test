@@ -133,7 +133,8 @@ main {
 
   .content-card-container {
     background: #f3f3f3;
-    transform: translateY(-4%);
+    z-index: 2;
+    transform: translateY(-10%);
   }
 
   .paragraph-img-container {
@@ -158,6 +159,35 @@ main {
         height: 100%;
         width: 100%;
       }
+    }
+  }
+
+  .lower-inner-card-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 4% 0 4% 1.5em;
+    .lower-inner-header {
+      margin: 0;
+      padding: 0;
+    }
+    .lower-inner-card-content {
+      max-width: 100%;
+      .lower-inner-paragraph {
+        padding-bottom: 3%;
+      }
+    }
+    .lower-svg-circle-img {
+      float: right;
+      width: 35%;
+      left: 7%;
+      position: relative;
+      border-radius: 50% 0 0 50%;
+      shape-outside: margin-box;
+    }
+    .lower-svg-shape-img {
+      float: right;
+      width: 24.5%;
     }
   }
 }
